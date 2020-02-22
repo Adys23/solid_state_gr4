@@ -142,4 +142,9 @@
 
 			});
 
+		$(document)
+			.on('scroll', function(){
+				console.log('Event Fired');
+			 });
+
 })(jQuery);
